@@ -1,0 +1,33 @@
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-rows:  50px 50px;
+    grid-template-columns: 300px  300px;
+    gap: 10px;
+
+}
+.container>div{
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+
+}
+
+#item1{
+    grid-row: 1/2;
+}
+
+
+
